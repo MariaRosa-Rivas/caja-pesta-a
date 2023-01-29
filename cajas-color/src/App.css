@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+label, input, button{
+  font-size: 50px;
+  text-align: center;
+}
+ button{
+  border-radius: 20px;
+  background-color:aliceblue;
+  border: solid aliceblue;
+  margin-left: 10px;
+ }
+ input{
+  background-color:rgb(226, 241, 255);
+  border: none;
+ }
+.cuadro{
+  display: flex;
+}
+.rojo{
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  color:red;
+  margin: 150px;
+}
+.azul{
+  width: 250px;
+  height: 250px;
+  background-color: blue;
+  color: blue;
+  margin: 150px;
+}
+.lila{
+  width: 250px;
+  height: 250px;
+  background-color: blueviolet;
+  color: blueviolet;
+  margin: 150px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
